@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>KabuKabu · Moto-taxi et livraison à Niamey</title>
+  <meta name="description" content="Commandez une course moto ou une livraison à Niamey. Motards vérifiés, paiement en espèces, 500 FCFA jusqu'à 5 km.">
+  <meta name="theme-color" content="#0B1B2B">
+  <meta name="color-scheme" content="light">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="KabuKabu">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta property="og:title" content="KabuKabu · Moto-taxi et livraison à Niamey">
+  <meta property="og:description" content="Une course ou une livraison à Niamey avec un motard vérifié. Paiement en espèces.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="icons/og-image.png">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Sora:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#view">Aller au contenu</a>
+  <header id="nav"></header>
+  <main id="view" tabindex="-1"></main>
+  <footer id="foot" hidden></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="modal" class="modal" hidden></div>
+  <noscript><p style="padding:24px">KabuKabu a besoin de JavaScript pour fonctionner.</p></noscript>
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

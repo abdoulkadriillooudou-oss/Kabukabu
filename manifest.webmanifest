@@ -1,0 +1,17 @@
+{
+  "name": "KabuKabu",
+  "short_name": "KabuKabu",
+  "description": "Moto-taxi et livraison à Niamey, Niger.",
+  "lang": "fr",
+  "start_url": "./#commander",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0B1B2B",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
